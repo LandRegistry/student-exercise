@@ -9,7 +9,7 @@ attrs==25.4.0
     #   flake8-bugbear
     #   outcome
     #   trio
-bandit==1.8.6
+bandit==1.9.2
     # via -r requirements_dev.in
 black==25.11.0
     # via -r requirements_dev.in
