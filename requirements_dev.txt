@@ -93,7 +93,7 @@ pep8-naming==0.15.1
     # via -r requirements_dev.in
 pip-api==0.0.34
     # via pip-audit
-pip-audit==2.9.0
+pip-audit==2.10.0
     # via -r requirements_dev.in
 pip-requirements-parser==32.0.1
     # via pip-audit
@@ -155,7 +155,9 @@ sortedcontainers==2.4.0
     #   trio
 stevedore==5.5.0
     # via bandit
-toml==0.10.2
+tomli==2.3.0
+    # via pip-audit
+tomli-w==1.2.0
     # via pip-audit
 trio==0.32.0
     # via
